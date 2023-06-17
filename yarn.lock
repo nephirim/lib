@@ -913,7 +913,7 @@
   dependencies:
     "@ethersproject/logger" "^5.7.0"
 
-"@ethersproject/providers@5.7.2", "@ethersproject/providers@^5.5.3":
+"@ethersproject/providers@5.7.2", "@ethersproject/providers@^5.5.3", "@ethersproject/providers@^5.7.2":
   version "5.7.2"
   resolved "https://registry.yarnpkg.com/@ethersproject/providers/-/providers-5.7.2.tgz#f8b1a4f275d7ce58cf0a2eec222269a08beb18cb"
   integrity sha512-g34EWZ1WWAVgr4aptGlVBF8mhl3VWjv+8hoAnzStu8Ah22VHBsuGzP17eb6xDVRzw895G4W7vvx60lFFur/1Rg==
@@ -2951,6 +2951,20 @@
     axios-retry "^3.2.5"
     ws "^8.8.0"
 
+"@shapeshiftoss/chain-adapters@^11.0.0":
+  version "11.2.2"
+  resolved "https://registry.yarnpkg.com/@shapeshiftoss/chain-adapters/-/chain-adapters-11.2.2.tgz#77f1d14febb8a039caeebbd15c7b747f2024f3cb"
+  integrity sha512-SuOvSZEIUXV+f6Vdu4/qGaT8h+/X7RhyyMMM6iWJyNQ+ldtJl3ai6ntEVKDz2FaKPULBPAcu6VUjx36HwC0Diw==
+  dependencies:
+    axios "^0.26.1"
+    bech32 "^2.0.0"
+    bignumber.js "^9.1.1"
+    bitcoinjs-lib "^5.2.0"
+    coinselect "^3.1.13"
+    ethers "^5.4.7"
+    multicoin-address-validator "^0.5.12"
+    web3-utils "1.7.4"
+
 "@shapeshiftoss/common-api@^8.3.0":
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/@shapeshiftoss/common-api/-/common-api-8.3.0.tgz#02b4623c2f87316ced1675c418f7241c4fcfee3e"
@@ -3544,6 +3558,17 @@
   dependencies:
     bignumber.js "9.0.1"
     cross-fetch "3.1.4"
+    dotenv "10.0.0"
+    emittery "0.8.1"
+    type-fest "1.2.1"
+
+"@yfi/sdk@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@yfi/sdk/-/sdk-2.1.0.tgz#24ac7d0c1eace1345c62017c84ac259673f51b25"
+  integrity sha512-x5l4+yTkQ7uXlkBQdueYDXbFqZ2sXq0gNMK6QPnUfd2J7aBbtAp4qCLa46a86DSHsUPzoT4rBmau0tUWVZU9Bg==
+  dependencies:
+    bignumber.js "9.0.1"
+    cross-fetch "3.1.5"
     dotenv "10.0.0"
     emittery "0.8.1"
     type-fest "1.2.1"
@@ -5417,6 +5442,13 @@ cross-fetch@3.1.4:
   integrity sha512-1eAtFWdIubi6T4XPy6ei9iUFoKpUkIF971QLN8lIvvvwueI65+Nw5haMNKUwfJxabqlIIDODJKGrQ66gxC0PbQ==
   dependencies:
     node-fetch "2.6.1"
+
+cross-fetch@3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.5.tgz#e1389f44d9e7ba767907f7af8454787952ab534f"
+  integrity sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==
+  dependencies:
+    node-fetch "2.6.7"
 
 cross-spawn@^5.0.1:
   version "5.1.0"
@@ -10096,6 +10128,13 @@ node-fetch@2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
+
+node-fetch@2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  dependencies:
+    whatwg-url "^5.0.0"
 
 node-fetch@^2.6.1, node-fetch@^2.6.7:
   version "2.6.11"
